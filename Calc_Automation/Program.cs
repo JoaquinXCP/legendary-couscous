@@ -63,7 +63,8 @@ namespace Calc_Automation
 
         static void Main(string[] args)
         {
-
+            
+            
             iniciarHistoria();
             string userOp = Console.ReadLine();
             iniciar_y_verificar_calc();

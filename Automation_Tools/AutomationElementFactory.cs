@@ -9,10 +9,13 @@ namespace Automation_Tools
 {
     public class AutomationElementFactory
     {
-
+        /// <summary>
+        /// AutomationElement from password property enabled.
+        /// </summary>
+        /// <param name="currentAutomationElement">AutomationElement as starting point of search.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementTypePassword(AutomationElement currentAutomationElement)
         {
-
 
             AutomationElementCollection aeCollection = currentAutomationElement.FindAll(TreeScope.Children, Automation.RawViewCondition);
 
@@ -55,7 +58,12 @@ namespace Automation_Tools
             return auto_ElemAux;
 
         }
-
+        
+        /// <summary>
+        /// AutomationElement by ProcessName from AutomationElement.RootElement.
+        /// </summary>
+        /// <param name="processName">Name of Process.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByProcessName(string processName)
         {
             AutomationElement auto_elem = (from AutomationElement ae in AutomationElement.RootElement.FindAll(TreeScope.Children, ConditionFactory.conditionByProcessName(processName)) where ae != null select ae).FirstOrDefault();
@@ -65,75 +73,113 @@ namespace Automation_Tools
 
         }
 
+        /// <summary>
+        /// AutomationElement by ProcessName from AutomationElement.
+        /// </summary>
+        /// <param name="currentAutomationElement">AutomationElement as starting point of search.</param>
+        /// <param name="processName">Name of process.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByProcessName(AutomationElement currentAutomationElement, string processName)
         {
             AutomationElement auto_elem = (from AutomationElement ae in currentAutomationElement.FindAll(TreeScope.Children, ConditionFactory.conditionByProcessName(processName)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by ProcessName from AutomationElement
 
         }
 
+        /// <summary>
+        /// AutomationElement by ProcessId from AutomationElement.RootElement.
+        /// </summary>
+        /// <param name="processId">Id of process.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByProcessId(int processId)
         {
             AutomationElement auto_elem = (from AutomationElement ae in AutomationElement.RootElement.FindAll(TreeScope.Children, ConditionFactory.conditionByProcessId(processId)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by ProcessId from RootElement
 
         }
 
+        /// <summary>
+        /// AutomationElement by ProcessId from AutomationElement.
+        /// </summary>
+        /// <param name="currentAutomationElement">AutomationElement as starting point of search.</param>
+        /// <param name="processId">Id of process.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByProcessId(AutomationElement currentAutomationElement, int processId)
         {
             AutomationElement auto_elem = (from AutomationElement ae in currentAutomationElement.FindAll(TreeScope.Children, ConditionFactory.conditionByProcessId(processId)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by ProcessId from AutomationElement
 
         }
 
+        /// <summary>
+        /// AutomationElement by Name from AutomationElement.RootElement.
+        /// </summary>
+        /// <param name="name">Name of process.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByName(string name)
         {
             AutomationElement auto_elem = (from AutomationElement ae in AutomationElement.RootElement.FindAll(TreeScope.Children, ConditionFactory.conditionByName(name)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by Name from RootElement
+            
 
         }
 
+        /// <summary>
+        /// AutomationElement by Name from AutomationElement.
+        /// </summary>
+        /// <param name="currentAutomationElement">AutomationElement as starting point of search.</param>
+        /// <param name="name">Name of process.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByName(AutomationElement currentAutomationElement, string name)
         {
             AutomationElement auto_elem = (from AutomationElement ae in currentAutomationElement.FindAll(TreeScope.Children, ConditionFactory.conditionByName(name)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by Name from AutomationElement
+            
 
         }
 
+        /// <summary>
+        ///  AutomationElement by ClassName from AutomationElement.RootElement.
+        /// </summary>
+        /// <param name="className">ClassName of AutomationElement.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByClassName(string className)
         {
             AutomationElement auto_elem = (from AutomationElement ae in AutomationElement.RootElement.FindAll(TreeScope.Children, ConditionFactory.conditionByClassname(className)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by ClassName from RootElement
 
         }
 
+        /// <summary>
+        /// AutomationElement by ClassName from AutomationElement.RootElement
+        /// </summary>
+        /// <param name="currentAutomationElement">AutomationElement as starting point of search.</param>
+        /// <param name="className">ClassName of AutomationElement.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByClassName(AutomationElement currentAutomationElement, string className)
         {
             AutomationElement auto_elem = (from AutomationElement ae in currentAutomationElement.FindAll(TreeScope.Children, ConditionFactory.conditionByClassname(className)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by ClassName from AutomationElement
 
         }
 
+        /// <summary>
+        /// AutomationElement by ControlType from AutomationElement.RootElement.
+        /// </summary>
+        /// <param name="controlType">ControlType of AutomationElement.</param>
+        /// <returns>AutomationElement</returns>
         public static AutomationElement automationElementByControlType(ControlType controlType)
         {
             AutomationElement auto_elem = (from AutomationElement ae in AutomationElement.RootElement.FindAll(TreeScope.Children, ConditionFactory.conditionByControlType(controlType)) where ae != null select ae).FirstOrDefault();
 
             return auto_elem;
-            // AutomationElement by ControlType from RootElement
 
         }
 
