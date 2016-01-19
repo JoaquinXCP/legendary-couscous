@@ -14,3 +14,11 @@ C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Calc_Automat
 C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Calc_Automation\bin\Debug\Automation_Tools.dll
 C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Calc_Automation\bin\Debug\Automation_Tools.pdb
 C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Calc_Automation\obj\Debug\Calc_Automation.csprojResolveAssemblyReference.cache
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\bin\Debug\Calc_Automation.exe.config
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\obj\Debug\Calc_Automation.exe
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\obj\Debug\Calc_Automation.pdb
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\bin\Debug\Calc_Automation.exe
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\bin\Debug\Calc_Automation.pdb
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\bin\Debug\Automation_Tools.dll
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\bin\Debug\Automation_Tools.pdb
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Calc_Automation\obj\Debug\Calc_Automation.csprojResolveAssemblyReference.cache

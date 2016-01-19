@@ -8,3 +8,8 @@ C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Automation_T
 C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Automation_Tools\obj\Debug\Automation_Tools.dll
 C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Automation_Tools\obj\Debug\Automation_Tools.pdb
 C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\Automation_Tools\obj\Debug\Automation_Tools.csprojResolveAssemblyReference.cache
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Automation_Tools\bin\Debug\Automation_Tools.dll
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Automation_Tools\bin\Debug\Automation_Tools.pdb
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Automation_Tools\obj\Debug\Automation_Tools.csprojResolveAssemblyReference.cache
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Automation_Tools\obj\Debug\Automation_Tools.dll
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\Automation_Tools\obj\Debug\Automation_Tools.pdb
