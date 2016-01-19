@@ -14,3 +14,4 @@ C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\LinqSamples\bin\De
 C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\LinqSamples\bin\Debug\LinqSamples.pdb
 C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\LinqSamples\obj\Debug\LinqSamples.exe
 C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\LinqSamples\obj\Debug\LinqSamples.pdb
+C:\Users\joaquin.caballero\Desktop\GitRepo\legendary-couscous\LinqSamples\obj\Debug\LinqSamples.csprojResolveAssemblyReference.cache
