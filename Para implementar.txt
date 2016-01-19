@@ -1,0 +1,38 @@
+ private static void recorrer(AutomationElementCollection colection)
+        {
+
+            foreach (AutomationElement ae in colection)
+            {
+
+                Console.WriteLine("{0}Hijos: {1}", dividirNiveles(), ae.Current.AutomationId);
+
+                llamarRecorrer(ae);
+
+            }
+
+        }
+        private static string dividirNiveles()
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < niveles; i++)
+            {
+
+                sb.Append("     ");
+
+            }
+            return sb.ToString();
+
+        }
+        private static void llamarRecorrer(AutomationElement autoElem)
+        {
+            AutomationElementCollection aeCol = autoElem.FindAll(TreeScope.Children, Condition.TrueCondition);
+            foreach (AutomationElement ae in aeCol)
+            {
+                niveles++;
+
+                Console.WriteLine("Padre: {0}", ae.Current.AutomationId);
+                recorrer(ae.FindAll(TreeScope.Children, Condition.TrueCondition));
+                
+            }
+
+        }

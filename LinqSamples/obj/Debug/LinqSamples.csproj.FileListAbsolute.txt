@@ -1,0 +1,11 @@
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\AutomationTools\LinqSamples\bin\Debug\LinqSamples.exe.config
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\AutomationTools\LinqSamples\bin\Debug\LinqSamples.exe
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\AutomationTools\LinqSamples\bin\Debug\LinqSamples.pdb
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\AutomationTools\LinqSamples\obj\Debug\LinqSamples.csprojResolveAssemblyReference.cache
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\AutomationTools\LinqSamples\obj\Debug\LinqSamples.exe
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\AutomationTools\LinqSamples\obj\Debug\LinqSamples.pdb
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\LinqSamples\bin\Debug\LinqSamples.exe.config
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\LinqSamples\bin\Debug\LinqSamples.exe
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\LinqSamples\bin\Debug\LinqSamples.pdb
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\LinqSamples\obj\Debug\LinqSamples.exe
+C:\Users\joaquin.caballero\Desktop\VS REPO\AutomationTools\Projects\LinqSamples\obj\Debug\LinqSamples.pdb

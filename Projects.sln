@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation_Tools", "Automation_Tools\Automation_Tools.csproj", "{B7EBFEDC-9431-4509-8C3D-F04F3E352347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{09CFB4B2-C1A2-482D-A0C7-AFC6E7B2B646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc_Automation", "Calc_Automation\Calc_Automation.csproj", "{995B9020-C551-4198-9B8B-5433BA4C4C5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89B0235E-2C24-453F-B7DA-593B470B474A}"
+	ProjectSection(SolutionItems) = preProject
+		Para implementar.txt = Para implementar.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{D7A1EF41-CE78-4353-816E-FADA8359E2D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work", "Work", "{B135A762-E600-4767-9323-DDEE5AD3F267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tickantel", "..\..\..\Proyectos\Tickantel\WindowsFormsApplication1\Tickantel.csproj", "{311BE3D6-8228-4DDB-8F51-5578FA8B2FFE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://joaquinxcp.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Automation_Tools\\Automation_Tools.csproj
+		SccProjectTopLevelParentUniqueName1 = Projects.sln
+		SccProjectName1 = Automation_Tools
+		SccLocalPath1 = Automation_Tools
+		SccProjectUniqueName2 = LinqSamples\\LinqSamples.csproj
+		SccProjectTopLevelParentUniqueName2 = Projects.sln
+		SccProjectName2 = LinqSamples
+		SccLocalPath2 = LinqSamples
+		SccProjectUniqueName3 = Calc_Automation\\Calc_Automation.csproj
+		SccProjectTopLevelParentUniqueName3 = Projects.sln
+		SccProjectName3 = Calc_Automation
+		SccLocalPath3 = Calc_Automation
+		SccProjectUniqueName4 = ..\\..\\..\\Proyectos\\Tickantel\\WindowsFormsApplication1\\Tickantel.csproj
+		SccProjectTopLevelParentUniqueName4 = Projects.sln
+		SccProjectName4 = ../Work/WindowsFormsApplication1
+		SccLocalPath4 = ..\\..\\..\\Proyectos\\Tickantel\\WindowsFormsApplication1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7EBFEDC-9431-4509-8C3D-F04F3E352347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EBFEDC-9431-4509-8C3D-F04F3E352347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EBFEDC-9431-4509-8C3D-F04F3E352347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EBFEDC-9431-4509-8C3D-F04F3E352347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CFB4B2-C1A2-482D-A0C7-AFC6E7B2B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CFB4B2-C1A2-482D-A0C7-AFC6E7B2B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CFB4B2-C1A2-482D-A0C7-AFC6E7B2B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CFB4B2-C1A2-482D-A0C7-AFC6E7B2B646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995B9020-C551-4198-9B8B-5433BA4C4C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995B9020-C551-4198-9B8B-5433BA4C4C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995B9020-C551-4198-9B8B-5433BA4C4C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995B9020-C551-4198-9B8B-5433BA4C4C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311BE3D6-8228-4DDB-8F51-5578FA8B2FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311BE3D6-8228-4DDB-8F51-5578FA8B2FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311BE3D6-8228-4DDB-8F51-5578FA8B2FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311BE3D6-8228-4DDB-8F51-5578FA8B2FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09CFB4B2-C1A2-482D-A0C7-AFC6E7B2B646} = {D7A1EF41-CE78-4353-816E-FADA8359E2D4}
+		{995B9020-C551-4198-9B8B-5433BA4C4C5F} = {D7A1EF41-CE78-4353-816E-FADA8359E2D4}
+		{B7EBFEDC-9431-4509-8C3D-F04F3E352347} = {D7A1EF41-CE78-4353-816E-FADA8359E2D4}
+		{311BE3D6-8228-4DDB-8F51-5578FA8B2FFE} = {B135A762-E600-4767-9323-DDEE5AD3F267}
+	EndGlobalSection
+EndGlobal
